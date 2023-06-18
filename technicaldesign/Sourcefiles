@@ -1,3 +1,4 @@
+Databasename- transfermarket
 Source Tables-
 appearances.csv
 club_games.csv
@@ -6,4 +7,40 @@ game_events.csv
 games.csv
 player_valuations.csv
 players.csv
+
+Target database- transfermarket_analysis
+Target tables
+Player Performance Analysis
+Club Performance Analysis
+Transfer Analysis
+Market Value Analysis
+Competition Analysis
+Player Development Analysis
+Player Comparison and Scouting
+Financial Analysis
+Talent Identification
+Market Trends and Predictions
+
+
+Player Performance Analysis: By combining game events, appearances, and player data, you can assess the performance of individual players. Analyze metrics such as goals scored, assists, successful passes, shots on target, and defensive actions to evaluate player effectiveness and contribution to team success.
+
+Club Performance Analysis: Utilize game events, appearances, and club games data to analyze club performance. Calculate key performance indicators like win percentage, goals scored/conceded, average possession, and shots on target to evaluate the overall performance of clubs across different competitions.
+
+Transfer Analysis: Combine transfer data with player and club information to analyze transfer patterns and trends. Evaluate the number and types of transfers (permanent, loan), transfer fees, player valuations, and the impact of transfers on clubs' performance and financials.
+
+Market Value Analysis: Leverage player valuation data to analyze market trends and player valuations over time. Identify the factors that influence player values, such as age, performance, contract status, and competition level. Assess the correlation between player valuation and on-field performance.
+
+Competition Analysis: Utilize competitions, games, and game events data to analyze different football competitions. Compare performance metrics, such as goals scored, possession, and passing accuracy, across different leagues and tournaments. Identify the most competitive leagues and evaluate the performance of clubs in specific competitions.
+
+Player Development Analysis: Analyze player data, appearances, and game events to track player development over time. Assess how players' performance and contribution evolve as they gain experience and progress in their careers. Identify breakthrough seasons, improvement in key metrics, and potential areas for further development.
+
+Player Comparison and Scouting: Combine player data, appearances, and player valuation to compare players and assess their value in the transfer market. Identify players with similar playing styles, positions, or attributes and evaluate their performance and valuation differences. This analysis can aid in scouting and identifying potential transfer targets.
+
+Financial Analysis: Combine transfer data, club games, and player valuation with financial information to analyze the financial impact of transfers on clubs. Evaluate the return on investment for players, assess the correlation between transfer spending and club performance, and analyze the financial sustainability of clubs based on their transfer strategies.
+
+Talent Identification: Utilize player data, appearances, and game events to identify promising talents. Analyze young players' performances, contributions, and potential transfer values to identify future stars and potential investment opportunities for clubs.
+
+Market Trends and Predictions: Analyze historical transfer data, player valuations, and market factors to identify transfer market trends. Assess the influence of external factors such as global events, competition rule changes, or economic factors on player valuations and transfer activities. Utilize these insights to make predictions about future transfer market dynamics.
+
+
 
