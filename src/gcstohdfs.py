@@ -13,7 +13,7 @@ hdfs_path = "/user/hadoop/trasansfermarket/"
 df = spark.read.format("csv").option("header", "true").load(gcs_path)
 
 # Write the table to HDFS
-df.write.option("compression",snappy").mode("overwrite").format("parquet").saveAsTable('transfermarket_analysis.appearances',path=hdfs_path)
+df.write.option("compression","snappy").mode("overwrite").format("parquet").saveAsTable('transfermarket_analysis.appearances',path=hdfs_path)
 
 # Stop the SparkSession
 spark.stop()
