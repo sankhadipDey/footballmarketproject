@@ -42,3 +42,9 @@ if __name__ == "__main__":
 
     # Convert CSV to Parquet
     converter.convert()
+
+
+#spark submit command to run the above code
+#gcloud dataproc jobs submit pyspark --cluster <cluster-name> --region <region>
+#--jars gs://your-bucket/path/to/gcs-connector.jar -- gs://your-bucket/path/to/script.py <csv_file_name> <hdfs_output_path>
+
