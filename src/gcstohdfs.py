@@ -34,7 +34,7 @@ if __name__ == "__main__":
     hdfs_output_path = sys.argv[2]
 
     # Set GCS and HDFS paths
-    gcs_path = f"gs://your-gcs-bucket/path/to/csv/{csv_file_name}"
+    gcs_path = f"gs://sankhadipdey_transferproject_KS/path/to/csv/{csv_file_name}"
     hdfs_path = f"hdfs:///path/to/parquet/output/{csv_file_name}.parquet"
 
     # Create an instance of GcsToHdfs
