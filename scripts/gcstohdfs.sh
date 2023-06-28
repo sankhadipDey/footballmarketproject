@@ -18,8 +18,8 @@ CSV_FILE_NAME=$1
 HDFS_OUTPUT_PATH=$2
 
 # Set the GCS and HDFS paths
-GCS_PATH="gs://$BUCKET_NAME/path/to/csv/$CSV_FILE_NAME"
-HDFS_PATH="hdfs:///path/to/parquet/output/${CSV_FILE_NAME}.parquet"
+GCS_PATH="gs://sankhadipdey_transferproject_KS/path/to/csv/$CSV_FILE_NAME"
+HDFS_PATH="hdfs:///input/${CSV_FILE_NAME}.parquet"
 
 # Build the spark-submit command
 SPARK_SUBMIT_CMD="gcloud dataproc jobs submit pyspark"
