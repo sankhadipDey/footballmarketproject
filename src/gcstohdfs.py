@@ -35,10 +35,10 @@ if __name__ == "__main__":
 
     # Set GCS and HDFS paths
     gcs_path = f"gs://sankhadipdey_transferproject_KS/path/to/csv/{csv_file_name}"
-    hdfs_path = f"hdfs:///path/to/parquet/output/{csv_file_name}.parquet"
+    hdfs_path = f"hdfs:///input/{csv_file_name}.parquet"
 
     # Create an instance of GcsToHdfs
-    converter = GcsToHdfs(gcs_path, hdfs_path)
+    converter = gcstohdfs(gcs_path, hdfs_path)
 
     # Convert CSV to Parquet
     converter.convert()
